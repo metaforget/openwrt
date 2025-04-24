@@ -40,7 +40,7 @@ jobs:
       - name: Checkout OpenWrt
         uses: actions/checkout@v4
         with: 
-          ref: v23.05
+          ref: v23.05.5
 
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
